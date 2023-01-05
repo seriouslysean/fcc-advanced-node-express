@@ -9,7 +9,8 @@ This is the boilerplate for the Advanced Node and Express lessons. Instructions 
     - `brew services start mongodb-community@6.0` to start mongo as a service
     - `brew services stop mongodb-community@6.0` to stop the mongo service
 3. Set `MONGO_URI='mongodb://localhost:27017/?retryWrites=true&w=majority'` in `.env`
-4. (optional) Use [Studio 3T Free](https://studio3t.com/free/) as a GUI
+4. Create a database named `database`
+5. (optional) Use [Studio 3T Free](https://studio3t.com/free/) as a GUI
 
 # Using Ngrok Locally
 
