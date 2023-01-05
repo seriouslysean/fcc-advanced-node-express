@@ -2,6 +2,15 @@
 
 This is the boilerplate for the Advanced Node and Express lessons. Instructions for the lessons start at https://www.freecodecamp.org/learn/quality-assurance/advanced-node-and-express/
 
+# Running Mongo Locally
+
+1. Install MongoDB ([MacOS](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/))
+2. Run `mongod --config /opt/homebrew/etc/mongod.conf` to run while terminal is open
+    - `brew services start mongodb-community@6.0` to start mongo as a service
+    - `brew services stop mongodb-community@6.0` to stop the mongo service
+3. Set `MONGO_URI='mongodb://localhost:27017/?retryWrites=true&w=majority'` in `.env`
+4. (optional) Use [Studio 3T Free](https://studio3t.com/free/) as a GUI
+
 # Using Ngrok Locally
 
 1. Sign up for [ngrok](https://ngrok.com/)
