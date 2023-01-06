@@ -2,6 +2,8 @@
 
 This is the boilerplate for the Advanced Node and Express lessons. Instructions for the lessons start at https://www.freecodecamp.org/learn/quality-assurance/advanced-node-and-express/
 
+All working code is in the `feat/solutions` branch.
+
 # Running Mongo Locally
 
 1. Install MongoDB ([MacOS](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/))
